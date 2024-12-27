@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoteKeeper</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box-icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- popup -->
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p>Not Ekle</p>
+            <i class="bx bx-x"></i>
+          </header>
+          <form>
+            <!-- title -->
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" />
+            </div>
+            <!-- description -->
+            <div class="row description">
+              <label>Description</label>
+              <textarea></textarea>
+            </div>
+            <button type="submit">Add Note</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- Ekleme alanı -->
+      <li class="add-box">
+        <div class="icon">
+          <i class="bx bx-plus"></i>
+        </div>
+        <p>Add new note</p>
+      </li>
+      <!-- Not alanı -->
+      <li class="note">
+        <!-- Details -->
+        <div class="details">
+          <p>Not Başlık</p>
+          <span>Not Açıklama</span>
+        </div>
+        <!-- Bottom Content -->
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings show">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bxs-edit"></i>Düzenle</li>
+              <li><i class="bx bx-trash"></i>Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- Not alanı -->
+      <li class="note">
+        <!-- Details -->
+        <div class="details">
+          <p>Not Başlık</p>
+          <span>Not Açıklama</span>
+        </div>
+        <!-- Bottom Content -->
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings show">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bxs-edit"></i> Düzenle</li>
+              <li><i class="bx bx-trash"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- Not alanı -->
+      <li class="note">
+        <!-- Details -->
+        <div class="details">
+          <p>Not Başlık</p>
+          <span>Not Açıklama</span>
+        </div>
+        <!-- Bottom Content -->
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings show">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bxs-edit"></i> Düzenle</li>
+              <li><i class="bx bx-trash"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </div>
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
